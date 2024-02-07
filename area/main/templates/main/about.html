@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block about_us %}
+    <div class="under_video"> 
+        {% for el in content%}
+            <a>{{ el.info_about }}
+            </a>
+        {% endfor %}    
+    </div> 
+{% endblock %}
+{% block back %}
+    <video src="{% static "files/Royal Library.mp4" %}" type="video/mp4" autoplay muted loop ></video>
+{% endblock  %} 

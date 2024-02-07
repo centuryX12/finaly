@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block v_content %}
+<div class='v_stream'>
+        {% for el in content  %}
+                <video src = {{el.track}} controls></video> 
+        {% endfor %}
+</div>   
+{% endblock  %}
+
+{% comment %} {% block back %}
+    <video src="{% static "files/Royal Library.mp4" %}" type="video/mp4" autoplay muted loop ></video>
+{% endblock  %}   {% endcomment %}

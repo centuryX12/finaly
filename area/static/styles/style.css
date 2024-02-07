@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Tektur&display=swap');
+body{
+    font-family:Tektur, serif ;
+    background: linear-gradient(166deg, #350303 0%, #0b0909 100%);
+    margin:0;
+    padding:0;
+}
+.baner{
+    display: flex;
+    background-color: linear-gradient(166deg, #350303 0%, #0b0909 100%);
+    
+}
+.nav-link{
+    color:aliceblue
+}
+.navbar-toggler{
+    background-color: rgb(201, 213, 157);
+}
+    
+.navbar-brand img{
+    width: 25px;
+}
+
+
+.page{
+    display: flex;
+    justify-content:center;
+}
+
+.tools{
+    width: 10%;
+}
+
+.bg_video{
+    width: 90%;
+    display: flex;
+}
+.bg_video video{
+    z-index: 1;
+
+}
+.under_video{
+    display:inline-block;
+    margin-top: 2pc;
+    margin-left: 80px;
+    border-style:solid ;
+    height: 90%;
+    width: 50%;
+    background: #020202c3;
+    z-index: 2;
+    color: #ebe3e3;
+    border-color: #350303;
+    text-align: center;
+}
+.log{
+    margin-left: 80px;
+}
+.reg{
+    margin-right: 0px;
+}
+.media{
+    display: inline-block;
+    height: 70%;
+
+}
+
+    
+
+.v_stream{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    /* grid-column: repeat(12/11); */
+    /* height:30% ; */
+    /* width:70% ;
+    position:relative; */
+    }
+
+
+.v_stream video{
+height:30vh ;
+width:80% ;
+position:relative;
+top: 0px;
+left: 0;
+object-fit:unset;
+}
+
+
+
+
+
+.btn{
+    display: block;
+    background: #4e1a1a;
+    margin-top: 3px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-color: rgb(43, 10, 10);
+    
+}
+
+.btn-light:hover{
+    background-color: #6e4545;
+  }
+ .btn-light:focus{
+    outline:#7b1c1c;
+    box-shadow: 0 0 0 2px #4e1a1a;
+  }
+
+
+.btn-light{
+    --bs-btn-font-weight: 45;
+    color:rgb(136, 52, 16); 
+    --bs-btn-border-color: var(--bd-yellow-bd);
+    --bs-btn-hover-color: var(--bs-black);
+    --bs-btn-hover-bg: #{shade-color($bg-green, 1%)}; 
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};  
+}
+
+/* .container_1{
+    display:inline-block;
+    text-align:left;
+    border: 3px dashed;
+    height: 99%;
+    width: 75px;
+}  */
+
+.footer_text{
+    color:black
+}
+footer{
+    background: linear-gradient(108deg, #350303 0%, #2d0101 100%);
+}
+.media_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.logotip{
+    justify-content: right;
+     color: #0b0505;
+}
+

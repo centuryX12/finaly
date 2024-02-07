@@ -1,0 +1,17 @@
+.bg_video{
+    height:90vh ;
+    width:100% ;
+    position: relative;
+    }
+
+
+.bg_video video{
+height:90vh ;
+width:100% ;
+position: absolute;
+top: 0px;
+left: 0;
+object-fit: cover;
+}
+
+
